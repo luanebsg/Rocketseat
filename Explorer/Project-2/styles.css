@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.page {
+    border: 1px solid red; /*Me permite enxergar a caixa. Padding é o preenchimento da linha da caixa para denttro, entre o conteúdo e a linha. A margem é a exclusão do espaço da linha para fora da ciaxa.*/
+    width: 1000px;
+    margin: 65px auto 0;
+}
