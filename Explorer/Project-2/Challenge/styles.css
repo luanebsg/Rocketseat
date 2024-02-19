@@ -1,0 +1,96 @@
+body {
+    background: #2F2E41;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 71px 99px 101px;
+}
+
+ul {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 99px 153px;
+    gap: 77px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+main p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+
+.verde {
+    color: #00BFA6;
+    font-weight: 700;
+}
+
+.neutro {
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 356px 23px;
+}
+
+footer img {
+    position: absolute;
+    left: 0;
+    margin-left: 285px;
+}
+
+footer p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.line {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #00BFA6;
+}
+
+a {
+    text-decoration: none;
+    font-family: "JetBrains Mono", monospace;
+    color: #FFF;
+}
+
+a:hover {
+    font-weight: 700;
+    color: #C2C2C2;
+}
